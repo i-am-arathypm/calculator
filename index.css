@@ -1,0 +1,86 @@
+
+h1{
+    text-align: center;
+    text-decoration-color: rgb(226, 247, 65);
+    font-family: sans-serif;
+}
+h2{
+    text-align: center;
+    text-decoration-color: rgb(208, 234, 89);
+    font-family: sans-serif;
+}
+footer{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: large;
+    color: rgb(7, 28, 219);
+}
+
+a:link {
+    color: rgb(13, 14, 13);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(49, 48, 48);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(133, 100, 100);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: rgb(51, 51, 28);
+    background-color: rgb(156, 241, 210);
+    text-decoration: underline;
+  }
+
+.container{
+    max-width: 350px;
+    margin: 10vh auto 0 auto;
+    box-shadow: royalblue;
+  
+}
+
+#display{
+    text-align: right;
+    height: 50px;
+    line-height: 70px;
+    padding: 16px,8px;
+    font-size: 25px;
+    background-color: rgb(235, 102, 253);
+}
+
+.buttons{
+    display: grid;
+    border-bottom: 3px solid;
+    border-left: 3px solid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.buttons > div{
+    border-top: 3px solid;
+    border-right: 3px solid;
+}
+
+.button {
+    border: 0.5px solid;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(8, 8, 6);
+    color: aliceblue;
+    transition: 0.1s ease-in-out;
+}
+
+#equal {
+    background-color: rgb(215, 215, 215);
+    color: aliceblue;
+}
